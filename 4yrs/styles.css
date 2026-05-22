@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+* {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/*nav bar*/
+.
+
+li, a {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-size: clamp(1.25rem, 1.5vw, 2rem);
+  margin-right: auto;
+  
+}
+
+p1 {
+  font-size: 1rem;
+  font-size: clamp(1rem, 1.3vw, 1.5rem);
+  text-align: center;
+}
+
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 10%;
+}
+
+.logo {
+   margin-right: auto;
+   align-items: center;
+}
+
+.happy {
+  display: inline-flex;  
+  margin-right: auto;
+  max-width: 30%;
+  height: auto;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 8px
+}
+
+.nav__links li a {
+  transition: all 0.4s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #9dc183;
+}
+
+
+.side_img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  align-content: center;
+  padding-top: 50px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+
+.parallax {
+  /* The image used */
+  background-image: url('images/hanging.png');
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.wrapper-main {
+  align-content: center;
+  width: 900px;
+  text-align: center;
+  padding: 50px;
+}
+
+.text--green{
+  color: #9dc183; 
+}
+
+
+
+h2 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 2rem;
+  font-size: clamp(1.25rem, 1.5vw, 2rem);
+  margin-right: auto;
+
+}
+
+h3 {
+  padding-top: 20px;
+  font-size: 2rem;
+  font-size: clamp(1.5rem, 2vw, 3rem);
+}
+
+
+
+
+p {
+  font-size: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+#reveal-button:active + #rose + #text {
+  display: block;
+  display: contents;
+}
+
+button {
+  align-self: center;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  justify-content: center; /* Center the items horizontally */
+}
+
+.container {
+    justify-content: space-between;
+    width: 400px; /* Can be in percentage also. */
+    height: 400px;
+    background-color: aliceblue;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    padding: 30px;
+}
+
+.row {
+  width: 900px;
+  align-self: center;
+  
+}
+
+.year {
+  height: 500vh;
+  display: flex;
+}
+
+.year-title {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0!important;
+}
+
+.year-pages {
+  width: 50%;
+}
+
+.year-pages div{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.year-pages div:nth-child(1){
+  background-color: aquamarine;
+}
+
+.year-pages div:nth-child(2){
+  background-color: rgb(105, 182, 226);
+}
+
+
+.year-pages div:nth-child(3){
+  background-color: rgb(97, 157, 180);
+}
+.year-pages div:nth-child(4){
+  background-color: rgb(233, 183, 126);
+}
+
+
+.year2 {
+  height: 100vh;
+  display: flex;
+}
+
+.year-title2 {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0!important;
+}
+
+.year-pages2 {
+  width: 50%;
+}
+
+.year-pages2 div{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.year-pages2 div:nth-child(1){
+  background-color: aquamarine;
+}
+
+.year-pages2 div:nth-child(2){
+  background-color: rgb(83, 117, 106);
+}
+
+
+.year-pages2 div:nth-child(3){
+  background-color: rgb(7, 81, 110);
+}
+
+
+.year4 {
+  height: 400vh;
+  display: flex;
+}
+
+.year-title4 {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0!important;
+}
+
+.year-pages4 {
+  width: 50%;
+}
+
+.year-pages4 div{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.year-pages4 div:nth-child(1){
+  background-color: rgb(131, 255, 203);
+}
+
+.year-pages4 div:nth-child(2){
+  background-color: rgb(130, 239, 253);
+}
+
+
+.year-pages4 div:nth-child(3){
+  background-color: rgb(100, 149, 168);
+}
+
+.div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}

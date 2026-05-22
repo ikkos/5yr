@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>5 Year Ani</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <a href="index.html">5 Years</a>
+    <a href="4yrs/index.html">4 Years</a>
+    <a href="4yrs/our_story.html">4 Years Story</a>
+    <a href="4yrs/things.html">4 Years Things</a>
+    <a href="val2023/index.html">Val 2023</a>
+    <a href="val2023/our_story.html">Val 2023 Story</a>
+    <a href="val2023/things.html">Val 2023 Things</a>
+  </nav>
+  <div id="ui-layer">
+    <h1 class="title">Happy 5 Years</h1>
+    <p class="subtitle">Drag to rotate &middot; Click the bow to unfold</p>
+  </div>
+  <div id="loading">
+    <div class="loading-spinner"></div>
+    <p>Assembling Cube...</p>
+  </div>
+  <div id="canvas-container"></div>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+    }
+  }
+  </script>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
